@@ -3,24 +3,42 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "bootstrap/bootstrap",
+@import "bootstrap/bootstrap/variables",
+        "bootstrap/bootstrap/mixins",
+        "bootstrap/bootstrap/normalize",
+        "bootstrap/bootstrap/print",
+        "bootstrap/bootstrap/scaffolding",
+        "bootstrap/bootstrap/type",
+        "bootstrap/bootstrap/code",
+        "bootstrap/bootstrap/grid",
+        "bootstrap/bootstrap/forms",
+        "bootstrap/bootstrap/buttons",
+        "bootstrap/bootstrap/component-animations",
+        "bootstrap/bootstrap/dropdowns",
+        "bootstrap/bootstrap/list-group",
+        "bootstrap/bootstrap/panels",
+        "bootstrap/bootstrap/wells",
+        "bootstrap/bootstrap/close",
+        "bootstrap/bootstrap/navs",
+        "bootstrap/bootstrap/navbar",
+
         "partials/variables",
         "vendor/selectBoxIt",
 
         "partials/mixins",
 
-          "partials/structure",
+        "partials/structure",
           
-            "partials/navbar",
+        "partials/navbar",
 
-            "partials/block-sky",
-            "partials/block-experts",
-            "partials/block-partner",
-            "partials/block-choice",
-            "partials/block-explore",
-            "partials/block-team",
-            "partials/block-apply",
-            "partials/block-slideshow",
-            "partials/block-offer",
+        "partials/block-sky",
+        "partials/block-experts",
+        "partials/block-partner",
+        "partials/block-choice",
+        "partials/block-explore",
+        "partials/block-team",
+        "partials/block-apply",
+        "partials/block-slideshow",
+        "partials/block-offer",
 
-            "partials/footer";
+        "partials/footer";
